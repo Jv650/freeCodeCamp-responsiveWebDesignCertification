@@ -61,7 +61,7 @@
       <label>Additional comments</label> 
       <textarea type="text"></textarea>
     </div>
-    <button type="submit" id="submit">
+    <button type="submit" id="submit" value="submit">
       Submit
     </button>
   </form>
