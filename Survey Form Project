@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<html lang="en"> 
+<link rel="stylesheet" href="styles.css">
+  <h1 id="title">Let us know how we're doing!</h1>
+  <p id="description">Thank you for taking the time to help future freeCodeCampers, as always we value your feedback.</p>
+    
+    <form id="survey-form"> 
+     <div class="input-element"> 
+      <label id="name-label">
+        Name
+      </label>    
+        <input placeholder="name" id="name" type="text" required/>
+      </div>
+      <div class="input-element"> 
+      <label id="email-label">
+        Email
+      </label>    
+        <input placeholder="email" id="email" type="email" required/>
+      </div>
+      <div class="input-element"> 
+      <label id="number-label">
+        Age
+      </label>    
+        <input placeholder="age" id="number"type="number" min="10" max="100"  required/>
+      </div>
+      <div class="input-element"> 
+      <label id="select-label">
+        What's your favorite course?
+      </label>  
+        <select id="dropdown">
+          <option>Responsive Web Design</option>
+          <option>JavaScript Algorithms and Data Structures</option>
+          <option>Front End Development Libraries</option>
+        </select>  
+      </div class="input-element">
+        <label>Have you received certification in any course available?</label>
+       <div> 
+         <label><input type="radio" name="course" value="yes" />Yes</label>
+        </div>
+        <div>
+      <label><input type="radio" name="course" value="no" />No</label>
+        </div>
+    </div>
+    <div class="input-element">
+        <label>Why might have you not yet received a certification?</label>
+       <div> 
+         <label><input type="checkbox" name="ideas" value="work" />Too much work</label>
+        </div>
+        <div>
+      <label><input type="checkbox" name="ideas" value="difficult" />Too difficult to complete</label>
+        </div>
+        <div>
+      <label><input type="checkbox" name="ideas" value="worth" />Not worth it</label>
+        </div>
+        <div>
+      <label><input type="checkbox" name="ideas" value="learn" />Just wanted to learn</label>
+        </div>
+    </div>
+    <div class="input-element">
+      <label>Additional comments</label> 
+      <textarea type="text"></textarea>
+    </div>
+    <button type="submit" id="submit">
+      Submit
+    </button>
+  </form>
+</html>
