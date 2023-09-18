@@ -1,3 +1,5 @@
+// index.html //
+
 <!DOCTYPE html>
 <html>
 <html lang="en"> 
@@ -66,3 +68,47 @@
     </button>
   </form>
 </html>
+
+// styles.css //
+body {
+  background-color:lightgrey;
+  text-align: center;
+}
+form {
+  max-width: 500px;
+  text-align: left;
+  padding: 20px;
+  margin: 5px;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+h1 {
+ background-color: darkgrey;
+ text-align: center;
+ border: 20px;
+ font-size: 35px;
+ display: inline-block;
+ padding: 5px;
+ color: rgb(40, 15, 120);
+
+
+}
+.input-element {
+  display: flex;
+  flex-direction: column;
+  margin: 13px; 
+}
+input {
+  padding: 6px;
+  border-radius: 9px:
+}
+select {
+  padding: 6px;
+  border-radius: 9px:
+}
+input[type="checkbox"] {
+  padding: 13px;
+  height: 20px;
+  width: 28px;
+
+}
